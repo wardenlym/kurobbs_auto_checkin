@@ -146,6 +146,7 @@ def main():
     debug = os.getenv("DEBUG", True)
     configure_logger(debug=debug)
     print(token)
+    token="eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkIjoxNzQxNzQ4NjA2MjQyLCJ1c2VySWQiOjI3MjcxNTkyfQ.HrpTM0Dt_Ns2xUNPNWK9KFm4GRA28jtqpHSpYThxHr8"
 
     try:
         kurobbs = KurobbsClient(token)
