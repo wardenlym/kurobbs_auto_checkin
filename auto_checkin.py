@@ -67,6 +67,7 @@ class KurobbsClient:
     def checkin(self) -> Response:
         """Perform the check-in operation."""
         user_game_list = self.get_user_game_list(3)
+        print(user_game_list)
 
         date = datetime.now().month
         data = {
